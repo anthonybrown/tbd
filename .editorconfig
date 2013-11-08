@@ -9,7 +9,7 @@ root = true
 # Change these settings to your own preference
 indent_style = space
 indent_size = 2
-#comma first
+#comma first for JS
 laxcomma:true
 
 # We recommend you to keep these unchanged
