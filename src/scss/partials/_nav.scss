@@ -1,0 +1,27 @@
+nav.nav {
+  width: 55%;
+  float: right;
+  clear: both;
+  padding: 0;
+  margin: 1.39em 0 0;
+  ul {
+    list-style: none;
+    width: 100%;
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background-color: red;
+  }
+    li {
+      width: 20%;
+      float: left;
+      margin: 0 0 0 1em;
+      padding: 1em 0;
+      background-color: #DDD;
+    }
+    a {
+      text-decoration: none;
+      color: #555;
+      text-transform: uppercase;
+    }
+}

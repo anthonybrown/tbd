@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font: 300 16px/1.6 'Ubuntu', Helvetica, Arial;
+  background: #fff;
+  color: #444;
+}
+.center {
+  width: 90%;
+  margin: 0 auto;
+}
