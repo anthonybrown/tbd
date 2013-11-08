@@ -10,7 +10,7 @@ root = true
 indent_style = space
 indent_size = 2
 #comma first for JS
-laxcomma:true
+#laxcomma:true
 
 # We recommend you to keep these unchanged
 end_of_line = lf
