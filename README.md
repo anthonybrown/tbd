@@ -5,3 +5,5 @@
 
 So far I really like developing with [fireshell](http://getfireshell.com/). by [Todd Motto](http://toddmotto.com/)
 Nice, fast, really put together well.
+
+Time to start putting something `real` together now

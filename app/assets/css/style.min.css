@@ -35,7 +35,7 @@ html {
 body {
   font: 300 16px/1.6 'Ubuntu', Helvetica, Arial;
   background: #fff;
-  color: #444;
+  color: #777;
 }
 
 .center {
@@ -74,23 +74,36 @@ nav.nav ul {
 }
 
 nav.nav li {
-  width: 20%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   float: left;
   margin: 0 0 0 1em;
-  padding: 1em 0;
-  background-color: #DDD;
+  line-height: 4.7;
+  text-align: center;
+  background-color: #575757;
 }
 
 nav.nav a {
+  font-size: .9em;
   text-decoration: none;
-  color: #555;
+  color: #E7E7E7;
   text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: #F77777;
+}
+
+.nav li:hover {
+  border: 3px solid black;
+  line-height: 4.3;
 }
 
 .sidebar {
   width: 25%;
   float: right;
-  margin: 27px 5% 0 0;
+  margin: 55px 5% 0 0;
 }
 
 .sidebar ul {
@@ -100,7 +113,7 @@ nav.nav a {
 }
 
 .sidebar h1 {
-  color: firebrick;
+  color: #9fbfbf;
 }
 
 .main {
@@ -131,6 +144,19 @@ nav.nav a {
   clear: both;
   padding: 0;
   margin: -72px 0 0 0;
+}
+
+/* round button class */
+
+.round_sm {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
+  margin: 0 0 0 1em;
+  line-height: 4.7;
+  text-align: center;
+  background-color: #575757;
 }
 
 @font-face {

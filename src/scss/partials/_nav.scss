@@ -12,16 +12,29 @@ nav.nav {
     text-align: center;
     background-color: red;
   }
-    li {
-      width: 20%;
+    li{
+      width:80px;
+      height: 80px;
+      border-radius: 50%;
       float: left;
       margin: 0 0 0 1em;
-      padding: 1em 0;
-      background-color: #DDD;
+      line-height: 4.7;
+      text-align: center;
+      background-color: #575757;
     }
     a {
+      font-size: .9em;
       text-decoration: none;
-      color: #555;
+      color: #E7E7E7;
       text-transform: uppercase;
     }
+}
+
+.nav a:hover{
+  color: #F77777;
+}
+
+.nav li:hover{
+  border: 3px solid black;
+  line-height:4.3;
 }
