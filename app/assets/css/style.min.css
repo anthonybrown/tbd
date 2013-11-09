@@ -57,7 +57,8 @@ body {
 }
 
 nav.nav {
-  width: 65%;
+  width: 525px;
+  height: 80px;
   float: right;
   clear: both;
   padding: 0;
