@@ -4,7 +4,7 @@
 
   $(function () {
     // say hello
-    console.log('Tony Brown says hello, and wants to tell you the God loves you.');
+    console.log('Plastic UI-Ready and Trusting in God!.');
   });
 
 })(jQuery, window, document);

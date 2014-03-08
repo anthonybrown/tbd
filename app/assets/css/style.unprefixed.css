@@ -1,10 +1,10 @@
 /*!
- * Tony Brown Development
- * Fiercely quick and opinionated front-ends
- * http://tonybrown.me
+ * plastic-ui
+ * Plastic UI
+ * http://tonybrown.me/plastic
  * @author Tony Brown
- * @version 1.1.0
- * Copyright 2013. MIT licensed.
+ * @version 0.0.1
+ * Copyright 2014. MIT licensed.
  */
 
 .clear:before, .clear:after {
@@ -26,11 +26,15 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%;
+  height: 100%;
+  min-height: 100%;
 }
 
 body {
-  font: 300 16px/1.6 'Ubuntu', Helvetica, Arial;
+  height: 100%;
+  min-height: 100%;
+  font: 300 1em/1.4 Helvetica, Arial, sans-serif;
   background: #fff;
   color: #777;
 }
@@ -44,13 +48,6 @@ body {
   height: 120px;
   width: 90%;
   margin: 0 auto;
-}
-
-.logo {
-  margin: 0;
-  position: absolute;
-  top: 5%;
-  left: 5%;
 }
 
 nav.nav {
@@ -157,7 +154,6 @@ nav.nav a {
   font-weight: normal;
   font-style: normal;
 }
-
 ::selection {
   background: #333;
   color: #fff;
@@ -224,8 +220,7 @@ nav.nav a {
 
   @page {
     margin: 0.5cm;
-}
-
+  }
   p,
   h2,
   h3 {
