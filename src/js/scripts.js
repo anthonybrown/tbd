@@ -4,7 +4,7 @@
 
   $(function () {
     // say hello
-    console.log('Plastic UI-Ready and Trusting in God!.');
+    console.log('.');
   });
 
 })(jQuery, window, document);
