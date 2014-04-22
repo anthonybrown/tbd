@@ -4,7 +4,7 @@
 
   $(function () {
     // say hello
-    console.log('.');
+    console.log('DOM ready!');
   });
 
 })(jQuery, window, document);
