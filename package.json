@@ -1,14 +1,14 @@
 {
-  "name": "tbd",
-  "title": "quick and opinionated front-ends",
-  "url": "https://github.com/anthonybrown/tbd",
+  "name": "tonybranch",
+  "title": "cabot responsive test pages",
+  "url": "",
   "author": "Tony Brown",
   "copyright": "2014",
   "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anthonybrown/tbd"
+    "url": ""
   },
   "devDependencies": {
     "grunt": "~0.4.1",

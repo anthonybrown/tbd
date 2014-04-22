@@ -1,6 +1,7 @@
 //----------------------------------*\
 // SCSS MIXINS
 //----------------------------------*/
+
 @import 'mixins/_vendor.scss';
 @import 'mixins/_position.scss';
 
@@ -11,6 +12,7 @@
 // Config modules
 @import 'modules/_vars.scss';
 @import 'modules/_clearfix.scss';
+@import 'modules/_normalize.scss';
 @import 'modules/_defaults.scss';
 
 //----------------------------------*\
@@ -43,3 +45,4 @@
 //----------------------------------*/
 
 @import 'vendor/_external.scss';
+
